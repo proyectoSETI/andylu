@@ -1,0 +1,112 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct nodoCola {
+char dato;
+struct nodoCola *ptrsiguiente;
+}
+
+typedef struct nodoCola NodoCola;
+typedef NodoCola *ptrNodoCola,
+
+Void imprimeCola(ptrNodoCola ptrCabeza);
+char retirar(ptrNodoCola *ptrNodoCola *ptrTalon);
+void agregar(ptrNodoCola *ptrCabeza,ntrNodoCola *ptrTalon char valor);
+void instruccion(void);
+
+int main()
+{
+ptrNodoCola ptrCabeza = NULL;
+ptrNodoCola ptrTalon = NULL;
+int eleccion;
+chr elemento;
+
+instrucciones();
+printf("?");
+scanf("?",&eleccion);
+
+while (eleccion !=3 ){
+switch( eleccion ) {
+break;
+
+default("Elemento no valido.\n\n");
+instrucciones();
+break;
+}
+
+printf ("?");
+sacanf("%d",&eleccion);
+
+return 0;
+}
+{
+printf("introdusca su eleccion:\n "
+"1 para retirar un elemnto a la cola\n"
+"2 para eliminar un elemento de la cola\n"
+"3 para terminar\n");
+}
+
+void agrgar ( ptrNodoCola *ptrNodoCola *ptrTalon,
+       char valor)
+{
+
+ptrNodoCola ptrNuevo;
+ptr Nuevo = malloc(sieof(NodoCola));
+if(ptrNuevo !=NULL) {
+ptrNuevo->dato= valor;ente =NULL;
+
+if(esta vacia(*ptrCabeza)){
+*ptrCabeza = ptrNuevo;
+} 
+else {
+
+printf ("no se inserto %c.No hey memoriadisponible.\n",valor);
+}
+char retirar(ptrNodoCola*ptrNodoCabeza,ptrNodoCola*ptrTalon)
+{
+char valor;
+ptrNodoCola temp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ptrNuevo->ptrsigu
